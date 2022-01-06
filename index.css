@@ -1,0 +1,34 @@
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+}
+@media screen and (min-width: 746px) {
+  /* here we will add the stles we want
+    for the screen with min -width of 746 px*/
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #111d4a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
